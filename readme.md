@@ -1,4 +1,5 @@
 <img src="https://ffxivita.it/wp-content/uploads/2019/11/215b08a5.png" align="center">
+
 ## ChocoColor
 <img src="https://ffxivita.it/wp-content/uploads/2020/01/6cf49a3a.png" align="right">
 Qusto semplice algoritmo risolverà il problema del Feeding del Chocobo in FFXIV per poterlo colorare. Quando avrete inserito il colore attuale del vostro Chocobo e quello desiderato, lo script vi mosterà a video gli items richiesti e l'ordine corretto per assicurarvi il risultato corretto.
