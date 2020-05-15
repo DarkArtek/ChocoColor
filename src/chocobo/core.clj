@@ -33,7 +33,9 @@
               (println (format-list (filter #(not (nil? %)) (feeding/feed-chain-totals chain))))
               (println "---> Date da mangiare al vostro chocobo in questo ordine:")
               (println (format-list (feeding/feed-chain-names chain))))
-            (println "---> Ecco fatto, grazie per aver usato ChocoColor"))
+              (println "---> Ecco fatto. Grazie per aver usato ChocoColor.")
+              (println "\n")
+              (println " Venite a trovarci su ffxivita.it"))
           (do
             (println "---> Colori Disponibili:")
             (println (format-list (map #(:name %) coloring/color-data)))

@@ -10,7 +10,7 @@
                    {:rgb [5 5 -5] :name "Cieldalaes Pineapple"}])
   
   (defn find-by-color
-    "Il valore della bacca in RGB"
+    "Il valore in RGB"
     [color]
     (first
       (filter
@@ -18,7 +18,7 @@
         berry-data)))
   
   (defn find-name
-    "Transforma il valore rgb nel nome della bacca"
+    "Transforma il valore rgb nel nome"
     [color]
     (:name (find-by-color color)))
   
@@ -33,14 +33,14 @@
         (rgb/diff x y))))
   
   (defn feed
-    "Ritorna una collezione con ogni colore ottenibile con le bacche scelte"
+    "Ritorna una collezione con ogni colore ottenibile con gli item scelti"
     [color]
     (map
       (partial rgb/add color)
       (map :rgb berry-data)))
   
   (defn best-choice
-    "Ritorna la prossima bacca che dovrebbe essere data al Chocobo per ottenere il colore prescelto dal colore di partenza prescelto"
+    "Ritorna il prossimo item che dovrebbe essere dato al Chocobo per ottenere il colore prescelto dal colore di partenza prescelto"
     [current target]
     (rgb/diff target
       (rgb/add current
@@ -52,7 +52,7 @@
               (feed current)))))))
   
   (defn feed-chain
-    "Ritorna la lita ordinata delle bacche (valori rgb) necessari per dar da mangiare al Chocobo dal colore di partenza a quello di arrivo"
+    "Ritorna la lita ordinata degli item (valori rgb) necessari per dar da mangiare al Chocobo dal colore di partenza a quello di arrivo"
     ([current target]
      (feed-chain current target []))
     ([current target berries]
@@ -65,7 +65,7 @@
            (conj berries next))))))
   
   (defn feed-chain-totals
-    "Ritorna il totale delle bacche richieste per una chain"
+    "Ritorna il totale degli item richiesti per una chain"
     [chain]
     (map
       #(let [total (rgb/counter % chain)
@@ -75,6 +75,6 @@
       (map #(:rgb %) berry-data)))
   
   (defn feed-chain-names
-    "Ritorna la list dei valori rgb associaldoli ai nomi delle bacche"
+    "Ritorna la list dei valori rgb associaldoli ai nomi degli item"
     [chain]
     (map find-name chain))
