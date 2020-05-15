@@ -4,7 +4,7 @@
     (:gen-class))
   
   (defn format-list
-    "Returns a string from a seq"
+    "Ritorna una stringa da una sequenza"
     [coll]
     (reduce
       str
