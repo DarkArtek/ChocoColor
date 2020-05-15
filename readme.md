@@ -1,5 +1,5 @@
-<img src="https://ffxivita.it/wp-content/uploads/2020/05/a158a0f3.png" align="right"></img>
 ## ChocoColor
+<img src="http://ffxivita.it/wp-content/uploads/2020/04/0cf4a6e0.png" align="right">
 Qusto semplice algoritmo risolverà il problema del Feeding del Chocobo in FFXIV per poterlo colorare. Quando avrete inserito il colore attuale del vostro Chocobo e quello desiderato, lo script vi mosterà a video gli items richiesti e l'ordine corretto per assicurarvi il risultato corretto.
 
 ### Perchè?
@@ -18,4 +18,4 @@ java -jar choco-color.jar "Desert Yellow" "Ash Gray"
 ``` 
 
 ### Release
-Le release sono pubblicate a [questo indirizzo](https://github.com/DarkArtek/ChocoColor/releases)
+Le release sono pubblicate a [questo indirizzo](https://github.com/DarkArtek/ChocoColor/releases/latest/)
