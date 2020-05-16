@@ -8,7 +8,7 @@ Qusto semplice algoritmo risolverà il problema del Feeding del Chocobo in FFXIV
 Ho visto parecchi siti dove potete controllare il numero di item totali per modificare il colore al Chocobo. Raccomandano di alternare le bacche per evitare di andare oltre il range del valore RGB (da 0 a 255), che causa il fallimento di tutto il processo. Questo algoritmo assicura che non andrete mai fuori scala e assicura quindi l'esito desiderato.
 
 ### Uso
-Eseguite il file exe o il file jar compilato con due parametri. Il primo sarà il colore di partenza del vostro chocobo, mentre il secondo sarà il colore desiderato. Una corretta scrittura dei colori, vi darà il processo da seguire assieme alle bacche corrette. In caso contrario, mosterà la lista dei colori disponibili.
+Eseguite il file exe o il file jar compilato con due parametri. Il primo sarà il colore di partenza del vostro chocobo, mentre il secondo sarà il colore desiderato. Una corretta scrittura dei colori, vi darà il processo da seguire assieme agli item corretti. In caso contrario, mosterà la lista dei colori disponibili.
 
 ### Esempi
 <img src="https://ffxivita.it/wp-content/uploads/2020/05/eba23a64.png" align="left">
