@@ -2,7 +2,7 @@
 
 (def color-data [{:rgb [219 180 87] :name "Desert Yellow"},
     {:rgb [228 223 208] :name "Snow White"},
-    {:rgb [172 168 162] :name "Ash Gray"},
+    {:rgb [172 168 162] :name "Ash Grey"},
     {:rgb [137 135 132] :name "Goobbue Grey"},
     {:rgb [101 101 101] :name "Slate Grey"},
     {:rgb [72 71 66] :name "Charcoal Grey"},
