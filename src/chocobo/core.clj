@@ -35,8 +35,7 @@
               (println (format-list (feeding/feed-chain-names chain))))
               (println "---> Ecco fatto. Grazie per aver usato ChocoColor.")
               (println "\n")
-              (println "\n")
-              (println "Venite a trovarci su https://ffxivita.it e su https://bit.ly/discovery-eorzea"))
+              (println "---> Venite a trovarci su https://ffxivita.it e su https://bit.ly/discovery-eorzea"))
           (do
             (println "---> Colori Disponibili:")
             (println (format-list (map #(:name %) coloring/color-data)))
